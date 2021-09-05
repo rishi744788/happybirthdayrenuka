@@ -1,0 +1,121 @@
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background: #008888;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  background: #000000;
+  border-radius: 4px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+  color: rgb(153, 243, 35);
+  margin: 1em;
+}
+
+.wishes{
+  border-radius: 4px;
+  background-color: black;
+  height: 85vh;
+  width: 80vw;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
+  .wishes{
+    width: 100%;
+    max-width: 80vw;
+    max-height: unset;
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
+  .wishes{
+    width: 100%;
+    max-width: 80vw;
+    max-height: unset;
+  }
+}
+
+.text-typing {
+
+  background: #000000;
+  font-size: 16px;
+  font-family: monospace;
+  border-radius: 50px;
+}
+
+.text-typing .main {
+  color: rgb(67, 240, 24);
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(22, end) forwards, blink 1s infinite;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%
+  }
+  100% {
+    width: 100%
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid #222;
+  }
+}
+
+img.birthday {
+  max-height: 40vh;
+}
+
+.text {
+  padding: 1em;
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+.space {
+  height: 100px;
+}
