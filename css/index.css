@@ -6,7 +6,7 @@ body {
   background: #008888;
   display: grid;
   place-items: center;
-  height: 100vh; 
+  height: 97vh; 
   font-family: 'Open Sans', sans-serif;
   box-shadow: 0px 0px 16px 14px rgba(0, 0, 0, 0.59) inset;
   -webkit-box-shadow: 0px 0px 16px 14px rgba(0, 0, 0, 0.59) inset;
