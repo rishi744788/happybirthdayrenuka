@@ -26,6 +26,8 @@ body {
   overflow: hidden;
   color: rgb(153, 243, 35);
   margin: 1em;
+  top: 13px;
+  position: absolute;
 }
 
 .wishes{
@@ -71,7 +73,7 @@ body {
 .text-typing {
 
   background: #000000;
-  font-size: 16px;
+  font-size: 15px;
   font-family: monospace;
   border-radius: 50px;
 }
@@ -82,7 +84,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   animation: typing 4s steps(22, end) forwards, blink 1s infinite;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
 }
 
