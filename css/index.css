@@ -30,6 +30,9 @@ body {
   padding: 1em;
   overflow: hidden;
   color: rgb(153, 243, 35);
+  margin: 1em;
+  top: 13px;
+  position: absolute;
 }
 
 .wishes {
