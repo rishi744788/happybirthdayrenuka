@@ -120,6 +120,7 @@ img.birthday {
 
 .muted {
   opacity: 0.8;
+  float: right;
 }
 
 .space {
